@@ -1,3 +1,5 @@
+
+
 import {
     mobile,
     backend,
@@ -24,15 +26,35 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+import AboutUs from "../pages/AboutUs";
+
+
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "",
+      title: "Home",
+      
+      
+      
     },
     {
-      id: "work",
-      title: "Work",
+      id: "about",
+      title: "About",
+      
+      
+    },
+    {
+      id: "services",
+      title: "Services",
+    },
+    {
+      id: "portfolio",
+      title: "Portfolio",
+    },
+    {
+      id: "blog",
+      title: "Blog",
     },
     {
       id: "contact",

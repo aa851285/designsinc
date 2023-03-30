@@ -1,29 +1,30 @@
-import {BrowserRouter} from 'react-router-dom'
-import {About,Contact, Experience, Feedbacks,Hero,Tech, Works, StarsCanvas, Navbar} from './components'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+
+
 import Footer from './components/Footer'
+import AboutUs from './pages/AboutUs'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+
+
+
+
+
+
 
 function App() {
   
 
   return (
     <BrowserRouter>
-    <div className='relative z-0 bg-primary'>
-      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-        <Navbar />
-        <Hero  />
-      </div>
-      <About />
-      <Experience />
-      <Tech />
-      <Works />
-      <Feedbacks />
-      <div className='relative z-0'>
-        <Contact />
-        <StarsCanvas />
-      </div>
-      <Footer />
+    <Routes>
+    <Route path="/" element={<Home />} />
+      <Route path="/about" element={<AboutUs />} exact/>
+      <Route path="/contact" element={<Contact />} exact/>
+      
+    </Routes>
 
-    </div>
+    
     </BrowserRouter>
   )
 }

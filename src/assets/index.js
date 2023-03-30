@@ -30,8 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import circleVideo from "./circle-video.mp4"
+import circleaboutimage from "./circle_us_page.png";
 
 export {
+  circleaboutimage,
   circleVideo,
   logo,
   backend,
