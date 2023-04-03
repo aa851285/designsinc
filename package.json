@@ -9,6 +9,9 @@
     "preview": "vite preview",
     "homepage": "https://customerurl.com/animate/"
   },
+  "tags": [
+    "swiper"
+  ],
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.3",
@@ -27,7 +30,7 @@
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "run": "^1.4.0",
-    "swiper-react": "^1.0.0",
+    "swiper": "^9.2.0",
     "three": "^0.150.1"
   },
   "devDependencies": {
