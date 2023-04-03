@@ -47,10 +47,56 @@ import AboutUs from "../pages/AboutUs";
     {
       id: "services",
       title: "Services",
+      dropdown: true,
+      submenu: [
+
+        {
+          title: 'web design',
+          url: 'webdesign',
+          id: "1",
+        },
+        {
+          title: 'Ecommerce',
+          url: 'e-commerce-services',
+          id: "2",
+        },
+        {
+          title: 'Digital Marketing',
+          url: 'digital-marketing',
+          id: "3",
+        },
+        {
+          title: '3D Motion Graphics',
+          url: '3d-motion-graphic',
+          id: "4",
+        },
+        {
+          title: 'Mobile Apps',
+          url: 'mobile-app-services',
+          id: "5",
+        },
+        {
+          title: 'Modern Logo Design',
+          url: 'modern-logo-design',
+          id: "6",
+        },
+        {
+          title: 'Web Content Writing',
+          url: 'web-content-writing',
+          id: "7",
+        },
+        {
+          title: 'Social Media Marketing',
+          url: 'social-media-marketing',
+          id: "8",
+        },
+      
+      ],
     },
     {
       id: "portfolio",
       title: "Portfolio",
+      url:"portfolio",
     },
     {
       id: "blog",

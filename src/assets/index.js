@@ -31,8 +31,35 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import circleVideo from "./circle-video.mp4"
 import circleaboutimage from "./circle_us_page.png";
+import reactimage from "./reactslidersimg.jpeg"
+import shopiimage from "./shopifysliderimg.webp"
+import reactnimage from "./react-nativesliderimg.jpeg"
+import figmaimage from "./figmasliderimg.jpeg"
+import phpimage from "./phpsliderimg.jpeg"
+import calljsicon from "./call-aboutus.json"
+import phoneIconjn from "./Phon_NumIcon.json"
+import emailIconjn from "./greenemailjnIcon.json"
+import aiimg from "./ai.png"
+import aiwebsitemac from "./WebPcMacBg.png"
+import ecommerceheri from "./EcommerceSite02.png"
+
+
+
 
 export {
+  ecommerceheri,
+  aiwebsitemac,
+  aiimg,
+  emailIconjn,
+  phoneIconjn,
+  calljsicon,
+  reactimage,
+  shopiimage,
+  reactnimage,
+  figmaimage,
+  phpimage,
+
+
   circleaboutimage,
   circleVideo,
   logo,
