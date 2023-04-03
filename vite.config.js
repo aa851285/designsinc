@@ -7,4 +7,10 @@ export default defineConfig({
   
   plugins: [react()],
 
+  resolve: {
+    alias: {
+      "swiper/react": "swiper-react",
+    },
+  },
+
 })
