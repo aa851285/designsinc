@@ -17,6 +17,7 @@
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.10.2",
     "maath": "^0.5.3",
+    "npm": "^9.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
@@ -26,6 +27,7 @@
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "run": "^1.4.0",
+    "swiper-react": "^1.0.0",
     "three": "^0.150.1"
   },
   "devDependencies": {
